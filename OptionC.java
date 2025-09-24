@@ -1,5 +1,15 @@
 public class OptionC {
-    // returns the minimum and maximum found in an array
+    /**
+    * Returns an array which has the minimum element in its first position and
+    * the maximum element in its second position
+    */
+    public static int[] callOptionC(int[] arr) {
+        int minEl = findMin(arr);
+        int maxEl = findMax(arr);
+
+        int[] result = {minEl, maxEl};
+        return result;
+    }
 
     private static int findMax(int[] arr) {
         int max = -1;
