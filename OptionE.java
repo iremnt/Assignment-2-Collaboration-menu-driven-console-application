@@ -1,4 +1,4 @@
-public class OprionE {
+public class OptionE {
     public static int sumOfEvens(int[] arr){
         int result = 0;
         for(int i = 0; i < arr.length; i +=2){
